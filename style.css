@@ -1,6 +1,6 @@
 .sidebar {
   height: 100%; 
-  width: 80px;
+  width: 40px;
   position: fixed; 
   z-index: 1; 
   top: 0; 
@@ -13,14 +13,17 @@
 .sidebar a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 10px;
-  color: #818181;
+  font-size: 15px;
+  color: #ffffff;
   display: block;
+  text-align :center;
+  transition: width 0.3s, height 0.3s;
 }
 
 
 .sidebar a:hover {
   color: #f1f1f1;
+  font-size:18px;
 }
 
 
